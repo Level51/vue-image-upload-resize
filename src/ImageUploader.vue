@@ -6,8 +6,7 @@
       :class="className"
       type="file"
       @change="uploadFile"
-      accept="image/*"
-      capture="camera">
+      accept="image/*">
       <slot name="upload-label"></slot>
   </div>
 </template>

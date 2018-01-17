@@ -53,7 +53,7 @@ var dataURLtoBlob = _interopDefault(require('blueimp-canvas-to-blob'));
 
 /* Dependecies */
 /* global EXIF:true, dataURLtoBlob:true */
-var ImageUploader = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('img',{directives:[{name:"show",rawName:"v-show",value:(_vm.imagePreview),expression:"imagePreview"}],staticClass:"img-preview",attrs:{"src":_vm.imagePreview,"width":"100"}}),_vm._v(" "),_c('input',{class:_vm.className,attrs:{"id":_vm.id,"type":"file","accept":"image/*","capture":"camera"},on:{"change":_vm.uploadFile}}),_vm._t("upload-label")],2)},staticRenderFns: [],
+var ImageUploader = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('img',{directives:[{name:"show",rawName:"v-show",value:(_vm.imagePreview),expression:"imagePreview"}],staticClass:"img-preview",attrs:{"src":_vm.imagePreview,"width":"100"}}),_vm._v(" "),_c('input',{class:_vm.className,attrs:{"id":_vm.id,"type":"file","accept":"image/*"},on:{"change":_vm.uploadFile}}),_vm._t("upload-label")],2)},staticRenderFns: [],
   name: 'image-uploader',
 
   props: {
